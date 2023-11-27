@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: configserver
-          image: docker.io/marksatin1/configserver:s12
+          image: marksatin1/configserver:s12
           ports:
             - containerPort: 8071
 ---
